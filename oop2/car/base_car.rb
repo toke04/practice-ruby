@@ -2,6 +2,7 @@
 
 class BaseCar
   def initialize(engine)
+    # エンジンを引数で渡して好きなエンジンを搭載できるようにした
     @engine = engine
   end
 
