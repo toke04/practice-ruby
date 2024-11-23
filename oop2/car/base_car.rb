@@ -1,4 +1,4 @@
-class Car
+class BaseCar
   def initialize(engine)
     @engine = engine
   end

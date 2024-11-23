@@ -1,6 +1,6 @@
-require_relative '../oop2/engin'
+require_relative '../engine/base_engine'
 
-class NormalEngine < Engine
+class NormalEngine < BaseEngine
   attr_reader :liter
   def start
     p "#{@liter}Lあるのでエンジンをかけます"

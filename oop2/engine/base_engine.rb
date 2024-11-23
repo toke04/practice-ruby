@@ -1,4 +1,4 @@
-class Engine
+class BaseEngine
   def initialize(liter)
     @liter = liter
   end
