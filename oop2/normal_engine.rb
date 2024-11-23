@@ -1,6 +1,7 @@
 require_relative '../oop2/engin'
 
 class NormalEngine < Engine
+  attr_reader :liter
   def start
     p "#{@liter}Lあるのでエンジンをかけます"
   end
