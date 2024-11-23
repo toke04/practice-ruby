@@ -1,4 +1,5 @@
 # frozen_string_literal: true
+
 require 'debug'
 
 class Animal
@@ -25,4 +26,3 @@ end
 
 p Human.new.eat
 p Dog.new.eat
-

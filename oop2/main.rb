@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 require_relative  '../oop2/engine/normal_engine'
 require_relative  '../oop2/car/light_vehicle'
 

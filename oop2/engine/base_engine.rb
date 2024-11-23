@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 class BaseEngine
   def initialize(liter)
     @liter = liter
@@ -11,4 +13,3 @@ class BaseEngine
     raise 'NotImplementedError'
   end
 end
-
